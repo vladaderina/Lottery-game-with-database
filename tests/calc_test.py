@@ -6,7 +6,7 @@ class CalcTest(TestCase):
         self.assertEqual(calc('2+2'), 4)
     def test_minus(self):
         self.assertEqual(calc('3-1'), 2)
-    def test_mult(self):
+    def test_mult(self): 
         self.assertEqual(calc('3*9'), 27)
     def test_dev(self):
         self.assertEqual(calc('3/1'), 3)
