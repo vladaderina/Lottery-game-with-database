@@ -13,6 +13,8 @@ def calc(expression):
             case ("-"):
                 return first - second
             case ("/"):
+                if second == 0:
+                    raise ZeroDivisionError('На ноль делить нельзя')
                 return first / second
             case ("*"):
                 return first * second
