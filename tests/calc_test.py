@@ -22,6 +22,10 @@ class CalcTest(TestCase):
         with self.assertRaises(ValueError)as e:
             calc('2.2+4.3')
         self.assertEqual('Выражение должно содержать только 2 целых числа и 1 знак', e.exception.args[0])
+    def test_zero(self):
+        with self.assertRaises(ZeroDivisionError)as e:
+            calc('3/0')
+        self.assertEqual('На ноль делить нельзя', e.exception.args[0])
     def test_string(self):
         with self.assertRaises(ValueError) as e:
             calc('a+b')
