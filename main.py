@@ -126,13 +126,3 @@ def play_lottery(login):
         con.close()
 registration()
 log_in()
-# bob = ("Bob", 42)
-# people = [("Sam", 28), ("Ron", 32), ("Nana", 5)]
-#cursor.execute("INSERT INTO people(name, age) VALUES('Tom', 38)")
-#cursor.execute("INSERT INTO people(name, age) VALUES(?, ?)", bob)
-# cursor.executemany("INSERT INTO people(name, age) VALUES(?, ?)", people)
-# cursor.execute("SELECT * FROM people")
-# for person in cursor.fetchall():
-#     print(f"{person[1]} - {person[2]}")
-# print(cursor.fetchone())
-# print(cursor.fetchall())
