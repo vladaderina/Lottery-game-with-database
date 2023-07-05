@@ -22,7 +22,7 @@ cursor.executescript("""
                 password VARCHAR(20)
                 );
                 
-                CREATE TABLE IF NOT EXISTS casino(
+                CREATE TABLE IF NOT EXISTS lottery(
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 name VARCHAR(50),
                 description TEXT(300),
